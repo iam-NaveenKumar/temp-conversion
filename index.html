@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature conversion</title>
+    <link rel="icon" href="image.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Temperator convertor</h1>
+      <input type="text" class="inp" id="textBox" />
+      <div class="btns-class">
+        <button class="btn" id="c-f" onclick="c_to_f()">C to F</button>
+        <button class="btn" id="c-k" onclick="c_to_k()">C to K</button>
+        <button class="btn" id="f-c" onclick="f_to_c()">F to C</button>
+        <button class="btn" id="f-k" onclick="f_to_k()">F to K</button>
+        <button class="btn" id="k-c" onclick="k_to_c()">K to C</button>
+        <button class="btn" id="k-f" onclick="k_to_f()">K to F</button>
+      </div>
+      <div class="value">
+        <p class="result" id="result"></p>
+      </div>
+    </div>
+    <div class="sunholder">
+      <div class="sun"></div>
+      <div class="raybase ray1"><div class="ray"></div></div>
+      <div class="raybase ray2"><div class="ray"></div></div>
+      <div class="raybase ray3"><div class="ray"></div></div>
+      <div class="raybase ray4"><div class="ray"></div></div>
+      <div class="raybase ray5"><div class="ray"></div></div>
+      <div class="raybase ray6"><div class="ray"></div></div>
+      <div class="raybase ray7"><div class="ray"></div></div>
+      <div class="raybase ray8"><div class="ray"></div></div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
